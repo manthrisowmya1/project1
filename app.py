@@ -2,5 +2,5 @@ from flask import Flask
 app=Flask(__name__)
 @app.route('/',methods=['GET'])
 def welcome():
-    return 'Hello world'
+    return 'Hello, World!!'
 app.run()
